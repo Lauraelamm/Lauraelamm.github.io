@@ -1,9 +1,69 @@
 body {
-  background: pink;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff0f6; /* soft pink */
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-h1 {
-  color: black;
+/* Header */
+header {
+  background-color: #ff5c8a; /* bright pink */
+  padding: 20px;
   text-align: center;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff5c8a;
+  border-bottom: 2px solid #ffd6e0;
+  padding-bottom: 5px;
+}
+
+section h3 {
+  color: #ff6b6b;
+  margin-top: 20px;
+}
+
+/* Skills list */
+.skills ul {
+  list-style-type: "✨ ";
+  padding-left: 20px;
+}
+
+/* Links */
+a {
+  color: #4ecdc4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff6b6b;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f7f7f7;
+  color: #555;
+  font-size: 0.9em;
 }
