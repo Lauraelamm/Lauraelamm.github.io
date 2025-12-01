@@ -36,7 +36,7 @@ h1 {
     width: 400px;
     height: 300px;
     margin: 10px auto;
-    border: 2px solid navy;
+    border: 2px solid black;
     display: block;
     /* center the images inside the blobs */
     text-align: center;
