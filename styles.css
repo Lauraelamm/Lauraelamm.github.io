@@ -8,14 +8,19 @@ h1 {
 
 .projects {
    display:flex; 
-   flex-wrap:wrap; } /* condensed to save space */
+   flex-wrap:wrap;  /* condensed to save space */
+   gap: 20px;
+   justify-content: center; 
+}
 
 .project {
-   width: 30%;
+   flex: 1 1 300px;
+   max-width: 30%;
    margin: 10px;
    padding: 20px 10px;
    background: white; /* pick a color */
    border-radius: 25%;
+   box-sizing: border-box;
 }
 
 
